@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>todo app</title>
+
+</head>
+<body>
+    <h1>TODOAPP-List</h1>
+    <div class="main">
+      <input type="text" id="input" placeholder="Enter task..." />
+      <button id="add-task-btn" onclick="addTodo()">Add task</button>
+      <button id="delete-all-task-btn" onclick="removeAllTodos()">
+        Delete All Tasks
+      </button>
+    </div>
+    <h2>Tasks</h2>
+    <ul id="list"></ul>
+    <script src="app.js"></script>
+</body>
+</html>
